@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=LINE+Seed+JP&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-background: #E9F9EE;
+  --color-d-green: #283328;
+  --color-l-green: #92E3A9;
+  --font-line: "LINE Seed JP", sans-serif;
+}

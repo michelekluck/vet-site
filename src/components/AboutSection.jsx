@@ -1,16 +1,17 @@
 import Button from "./Button"
+import image from "../assets/about.png"
 
 function AboutSection() {
     return (
         <section className="bg-d-green">
-            <div className="text-white">
+            <div className="text-white p-4">
                 <h2 className="font-bold text-center">Quem sou eu? </h2>
-                <p>**Imagem**</p>
-                <p>Nam sed velit nec urna fermentum convallis. Proin turpis dolor, ullamcorper non ante ut, tincidunt ultrices neque. Vivamus congue cursus tortor, vel consectetur odio blandit et. Vivamus ac imperdiet sem. Donec tempus tortor et justo ultrices, id elementum ante placerat. Pellentesque id lectus feugiat, euismod quam quis, vestibulum neque. Duis vel</p>
+                <img src={image} alt="Imagem Samuel Kluck" className="mx-auto"></img>
+                <p className="text-[15px] mb-4">Nam sed velit nec urna fermentum convallis. Proin turpis dolor, ullamcorper non ante ut, tincidunt ultrices neque. Vivamus congue cursus tortor, vel consectetur odio blandit et. Vivamus ac imperdiet sem. Donec tempus tortor et justo ultrices, id elementum ante placerat. Pellentesque id lectus feugiat, euismod quam quis, vestibulum neque. Duis vel</p>
+                <Button>
+                    <p>Whatsapp</p>
+                </Button>
             </div>
-            <Button>
-                <p>Whatsapp</p>
-            </Button>
         </section>
     )
 }

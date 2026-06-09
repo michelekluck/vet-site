@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import AnimalsSection from './components/AnimalsSection';
+import TuiutiSection from './components/TuiutiSection';
 import ServicesSection from './components/ServicesSection';
 import AboutSection from './components/AboutSection';
 import IgSection from './components/IgSection';
@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <main className='flex-1'>
         <Hero />
-        <AnimalsSection />
+        <TuiutiSection />
         <ServicesSection />
         <AboutSection />
         <IgSection />

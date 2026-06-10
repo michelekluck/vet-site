@@ -19,7 +19,7 @@ function Box({ icon, title, items, variant = "dark", className = "", titleClassN
     return (
         <div className={`${currentStyle.bg} p-5 rounded-[20px] mb-2 h-[161px]`}>
             <div className={`flex items-center gap-2 ${currentStyle.title} ${titleClassName}`}>
-                <span className={currentStyle.icon}> {icon} </span>
+                <span className={currentStyle.iconClass}> {icon} </span>
                 <p className="font-[15px] font-bold ml-2"> {title} </p>
             </div>
             <ul className={`${currentStyle.text} mt-2 text-[13px] list-disc pl-5 mt-4`}>

@@ -1,10 +1,10 @@
 import Button from "./Button";
 import Box from "./Box";
-import Consultation from "../assets/consultationIcon.svg"
-import Exam from "../assets/exameIcon.svg"
-import Procedures from "../assets/proceduresIcon.svg"
-import Surgery from "../assets/surgeryIcon.svg"
-import FollowUp from "../assets/followUpIcon.svg"
+import Consultation from "../assets/consultationIcon.svg?react"
+import Exam from "../assets/exameIcon.svg?react"
+import Procedures from "../assets/proceduresIcon.svg?react"
+import Surgery from "../assets/surgeryIcon.svg?react"
+import FollowUp from "../assets/followUpIcon.svg?react"
 import local from "../assets/local.svg"
 
 function ServicesSection() {
@@ -17,7 +17,7 @@ function ServicesSection() {
                 </div>
                 <Box
                     variant="dark"
-                    icon={<img src={Consultation} alt="Consulta Icone" />}
+                    icon={<Consultation />}
                     title="Consultas e acompanhamento:"
                     items={[
                         "Consultas clínicas",
@@ -27,7 +27,7 @@ function ServicesSection() {
                 />
                 <Box
                     variant="dark"
-                    icon={<img src={Exam} alt="Exame Icone" />}
+                    icon={<Exam />}
                     title="Exames:"
                     items={[
                         "Exames laboritoriais",
@@ -37,7 +37,7 @@ function ServicesSection() {
                 />
                 <Box
                     variant="dark"
-                    icon={<img src={Procedures} alt="Procedimentos Icone" />}
+                    icon={<Procedures />}
                     title="Procedimentos ambulatórios:"
                     items={[
                         "Corte de unhas",
@@ -47,7 +47,7 @@ function ServicesSection() {
                 />
                 <Box
                     variant="dark"
-                    icon={<img src={Surgery} alt="Cirurgias Icone" />}
+                    icon={<Surgery />}
                     title="Cirurgias:"
                     items={[
                         "Castrações",
@@ -58,7 +58,7 @@ function ServicesSection() {
                 />
                 <Box
                     variant="dark"
-                    icon={<img src={FollowUp} alt="Acompanhamento Icone" />}
+                    icon={<FollowUp />}
                     title="Internamento:"
                     items={[
                         "Acompanhamento hospitalar"

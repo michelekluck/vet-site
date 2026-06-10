@@ -1,4 +1,4 @@
-function Box({ icon, title, items, variant = "dark" }) {
+function Box({ icon, title, items, variant = "dark", className = "", titleClassName = "" }) {
     const styles = {
         dark: {
             icon: "text-l-green",
@@ -17,8 +17,8 @@ function Box({ icon, title, items, variant = "dark" }) {
     const currentStyle = styles[variant]
 
     return (
-        <div className={`${currentStyle.bg} p-5 rounded-[20px]`}>
-            <div className={`flex items-center gap-2 ${currentStyle.title}`}>
+        <div className={`${currentStyle.bg} p-5 rounded-[20px] mb-2 h-[161px]`}>
+            <div className={`flex items-center gap-2 ${currentStyle.title} ${titleClassName}`}>
                 <span className={currentStyle.icon}> {icon} </span>
                 <p className="font-[15px] font-bold ml-2"> {title} </p>
             </div>

@@ -3,7 +3,7 @@ import Box from "./Box"
 import Consultation from "../assets/consultationIcon.svg?react"
 import Care from "../assets/careIcon.svg?react"
 import Guidelines from "../assets/guidelinesIcon.svg?react"
-import Button from "./Button"
+import Link from "./Link"
 
 function HomeServicesSection() {
     return (
@@ -48,9 +48,9 @@ function HomeServicesSection() {
                 />
                 <p className="text-[16px] mb-4 mt-7"><span className="font-bold">Entre em contato</span> para agendar o atendimento domiciliar!</p>
                 <div className="flex flex-col items-center">
-                    <Button>
+                    <Link href="https://wa.me/5541996462347">
                         Agendar atendimento domiciliar
-                    </Button>
+                    </Link>
                 </div>
 
             </div>

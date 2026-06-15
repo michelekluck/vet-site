@@ -1,4 +1,4 @@
-import Button from "./Button"
+import Button from "./Link"
 import image from "../assets/about.png"
 
 function AboutSection() {

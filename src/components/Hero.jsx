@@ -1,4 +1,4 @@
-import Button from "./Button"
+import Link from "./Link"
 import local from "../assets/local.svg"
 import iguana from "../assets/iguana.png"
 
@@ -21,10 +21,10 @@ function Hero() {
             </div>
             <div className="flex flex-col items-center font-bold text-black mt-5 p-4">
                 <p className="mb-4 text-[16px]">Entre em contato !</p>
-                <Button>
+                <Link href="https://wa.me/5541996462347">
                     Whatsapp <br />
                     (41) 99646-2347
-                </Button>
+                </Link>
             </div>
         </section>
     )

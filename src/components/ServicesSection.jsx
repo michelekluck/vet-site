@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "./Link";
 import Box from "./Box";
 import Consultation from "../assets/consultationIcon.svg?react"
 import Exam from "../assets/exameIcon.svg?react"

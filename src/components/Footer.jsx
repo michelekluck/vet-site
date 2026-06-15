@@ -11,7 +11,7 @@ function Footer() {
                         <p className="font-bold">Agendamento na Universidade Tuiuti</p>
                         <a className="inline-block mb-2" href="tel:+5541333117955">(41) 3331-17955</a>
                         <p className="font-bold">Agendamento à domicílio</p>
-                        <a href="tel:+5541333117955">(41) 99646-2347</a>
+                        <a href="https://wa.me/5541996462347">(41) 99646-2347</a>
                     </div>
                 </div>
                 <div className="flex items-center gap-3 mt-[24px] mb-[24px]">

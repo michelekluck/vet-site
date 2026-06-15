@@ -12,10 +12,10 @@ function Navbar() {
                 </a>
 
                 {/* Desktop */}
-                <div className="hidden sm:flex gap-2">
-                    <span>Universidade Tuiuti</span>
-                    <span>Atendimento à domicílio</span>
-                    <span>Sobre</span>
+                <div className="hidden sm:flex gap-10">
+                    <a href="#tuiuti">Atendimento na Universidade Tuiuti</a>
+                    <a href="#home">Atendimento à domicílio</a>
+                    <a href="#about">Sobre</a>
                 </div>
 
                 {/* Mobile */}

@@ -4,7 +4,7 @@ import iguana from "../assets/iguana.png"
 
 function Hero() {
     return (
-        <section className="text-center mt-15">
+        <section className="text-center mt-14">
             <div className='text-white p-4 bg-d-green'>
                 <div>
                     <h1 className='font-bold text-[24px]'>Atendimento de <br />

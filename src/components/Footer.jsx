@@ -15,7 +15,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="flex items-center gap-3 mt-[24px] mb-[24px]">
-                    <p className="font-bold text-[16px]">Me siga nas redes sociais</p>
+                    <p className="font-bold text-[18px]">Me siga nas redes sociais:</p>
                     <div className="ml-auto flex gap-6">
                         <Instagram className="text-black" />
                         <Linkedin className="text-black" />

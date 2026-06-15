@@ -2,7 +2,7 @@ import Link from "./Link"
 
 function TuiutiSection() {
     return (
-        <section className="bg-d-green mt-9">
+        <section id="tuiuti" className="bg-d-green mt-9">
             <div className="text-white p-4">
                 <h2 className="mb-6 mt-10"><span className="font-extrabold">Atendimento</span> na <br /> Universidade Tuiuti do Paraná</h2>
                 <p className="text-[16px] leading-7 mb-6">Também realizo <span className="font-bold">atendimentos na Universidade Tuiuti do Paraná</span> como aprimorando da área de Clínica e Cirurgia de Pets Não Convencionais e Animais Silvestres. <br />

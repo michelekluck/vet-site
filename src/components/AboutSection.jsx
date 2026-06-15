@@ -3,7 +3,7 @@ import image from "../assets/about.png"
 
 function AboutSection() {
     return (
-        <section className="bg-d-green mt-4">
+        <section id="about" className="bg-d-green mt-4">
             <div className="text-white p-4">
                 <h2 className="font-bold mt-4 mb-4">Quem sou eu? </h2>
                 <img src={image} alt="Imagem Samuel Kluck" className="mx-auto mb-4 mr-4"></img>

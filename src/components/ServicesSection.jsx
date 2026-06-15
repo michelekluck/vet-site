@@ -6,6 +6,7 @@ import Procedures from "../assets/proceduresIcon.svg?react"
 import Surgery from "../assets/surgeryIcon.svg?react"
 import FollowUp from "../assets/followUpIcon.svg?react"
 import local from "../assets/local.svg"
+import Reveal from "./Reveal"
 
 function ServicesSection() {
     return (
@@ -15,56 +16,71 @@ function ServicesSection() {
                     <div className="bg-l-green h-[50px] w-[11px] mt-4"></div>
                     <h2 className="text-[16px] p-4 pl-2 leading-6 text-d-green mb-4"><span className="font-extrabold">Serviços realizados</span> <br /><span className="text-[15px]">na clínica da Universidade Tuiuti</span></h2>
                 </div>
-                <Box
-                    variant="dark"
-                    icon={<Consultation />}
-                    title="Consultas e acompanhamento:"
-                    items={[
-                        "Consultas clínicas",
-                        "Atestados de saúde",
-                        "Orientação nutricional e ambiental"
-                    ]}
-                />
-                <Box
-                    variant="dark"
-                    icon={<Exam />}
-                    title="Exames:"
-                    items={[
-                        "Exames laboritoriais",
-                        "Exames de imagem"
-                    ]}
-                    titleClassName="mb-7"
-                />
-                <Box
-                    variant="dark"
-                    icon={<Procedures />}
-                    title="Procedimentos ambulatórios:"
-                    items={[
-                        "Corte de unhas",
-                        "Desgaste dentário",
-                        "Desgaste de bico"
-                    ]}
-                />
-                <Box
-                    variant="dark"
-                    icon={<Surgery />}
-                    title="Cirurgias:"
-                    items={[
-                        "Castrações",
-                        "Cirurgias ortotopédicas",
-                        "Cirurgias oncológicas",
-                        "Outro procedimentos cirurgicos"
-                    ]}
-                />
-                <Box
-                    variant="dark"
-                    icon={<FollowUp />}
-                    title="Internamento:"
-                    items={[
-                        "Acompanhamento hospitalar"
-                    ]}
-                    titleClassName="mb-8"
-                />
+
+                <Reveal className="transition-all duration-700 delay-100">
+                    <Box
+                        variant="dark"
+                        icon={<Consultation />}
+                        title="Consultas e acompanhamento:"
+                        items={[
+                            "Consultas clínicas",
+                            "Atestados de saúde",
+                            "Orientação nutricional e ambiental"
+                        ]}
+                    />
+                </Reveal>
+
+                <Reveal className="transition-all duration-700 delay-100">
+                    <Box
+                        variant="dark"
+                        icon={<Exam />}
+                        title="Exames:"
+                        items={[
+                            "Exames laboritoriais",
+                            "Exames de imagem"
+                        ]}
+                        titleClassName="mb-7"
+                    />
+                </Reveal>
+
+                <Reveal className="transition-all duration-700 delay-100">
+                    <Box
+                        variant="dark"
+                        icon={<Procedures />}
+                        title="Procedimentos ambulatórios:"
+                        items={[
+                            "Corte de unhas",
+                            "Desgaste dentário",
+                            "Desgaste de bico"
+                        ]}
+                    />
+                </Reveal>
+
+                <Reveal className="transition-all duration-700 delay-100">
+                    <Box
+                        variant="dark"
+                        icon={<Surgery />}
+                        title="Cirurgias:"
+                        items={[
+                            "Castrações",
+                            "Cirurgias ortotopédicas",
+                            "Cirurgias oncológicas",
+                            "Outro procedimentos cirurgicos"
+                        ]}
+                    />
+                </Reveal>
+
+                <Reveal className="transition-all duration-700 delay-100">
+                    <Box
+                        variant="dark"
+                        icon={<FollowUp />}
+                        title="Internamento:"
+                        items={[
+                            "Acompanhamento hospitalar"
+                        ]}
+                        titleClassName="mb-8"
+                    />
+                </Reveal>
             </div>
 
             <div className="mt-4 bg-d-green text-white mb-7">

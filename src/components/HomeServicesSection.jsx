@@ -15,7 +15,7 @@ function HomeServicesSection() {
                         <span className="font-extrabold">Atendimento domiciliar</span>
                     </h2>
                 </div>
-                <p className="text-[15px] mb-6"><span className="font-bold">Serviços realizados no conforto do lar</span>, reduzindo o estresse do animal e proporcionando maior comodidade ao tutor.</p>
+                <p className="text-[16px] mb-6"><span className="font-bold">Serviços realizados no conforto do lar</span>, reduzindo o estresse do animal e proporcionando maior comodidade ao tutor.</p>
                 <Box
                     variant="light"
                     icon={<Consultation />}
@@ -46,10 +46,13 @@ function HomeServicesSection() {
                     ]}
                     titleClassName="mb-7"
                 />
-                <p className="text-[15px] mb-4 mt-7"><span className="font-bold">Entre em contato</span> para agendar o atendimento domiciliar!</p>
-                <Button>
-                    Agendar atendimento domiciliar
-                </Button>
+                <p className="text-[16px] mb-4 mt-7"><span className="font-bold">Entre em contato</span> para agendar o atendimento domiciliar!</p>
+                <div className="flex flex-col items-center">
+                    <Button>
+                        Agendar atendimento domiciliar
+                    </Button>
+                </div>
+
             </div>
         </section>
     )

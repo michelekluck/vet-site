@@ -20,7 +20,7 @@ function Navbar() {
 
                 {/* Mobile */}
                 <button
-                    className="cursor-pointer sm:hidden text-[40px]"
+                    className="cursor-pointer sm:hidden text-3xl"
                     onClick={() => setOpen(!open)}
                 >
                     ☰

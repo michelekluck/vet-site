@@ -4,7 +4,7 @@ import Instagram from "../assets/instagram.svg?react"
 function Footer() {
     return (
         <footer>
-            <div className="bg-green text-white mt-4 p-6">
+            <div className="bg-white text-black mt-4 p-6">
                 <div>
                     <p className="font-bold text-[18px] mb-4">Entre em contato:</p>
                     <div className="text-[16px] leading-8">
@@ -17,12 +17,12 @@ function Footer() {
                 <div className="flex items-center gap-3 mt-[24px] mb-[24px]">
                     <p className="font-bold text-[16px]">Me siga nas redes sociais</p>
                     <div className="ml-auto flex gap-6">
-                        <Instagram className="text-white" />
-                        <Linkedin />
+                        <Instagram className="text-black" />
+                        <Linkedin className="text-black" />
                     </div>
 
                 </div>
-                <div className="bg-white h-[1px] w-auto mb-[24px]"></div>
+                <div className="bg-black h-[1px] w-auto mb-[24px]"></div>
                 <div className="text-[16px] ">
                     <p>© 2026</p>
                     <p>Todos os direitos reservados</p>

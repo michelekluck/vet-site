@@ -5,13 +5,13 @@ import Exam from "../assets/exameIcon.svg?react"
 import Procedures from "../assets/proceduresIcon.svg?react"
 import Surgery from "../assets/surgeryIcon.svg?react"
 import FollowUp from "../assets/followUpIcon.svg?react"
-import local from "../assets/local.svg"
+
 import Reveal from "./Reveal"
 
 function ServicesSection() {
     return (
         <section>
-            <div className="p-4 md:p-0">
+            <div className="md:p-0">
 
                 {/* Titulo */}
                 <div className="flex items-start">
@@ -20,7 +20,7 @@ function ServicesSection() {
                 {/* Titulo */}
 
                 {/* cards */}
-                <div>
+                <div className="grid grid-cols-1 md:grid-cols-3 md:gap-10">
                     <Reveal className="transition-all duration-700 delay-100">
                         <Box
                             variant="dark"
@@ -88,24 +88,6 @@ function ServicesSection() {
                 </div>
                 {/* cards */}
 
-            </div>
-
-            <div className="mt-4 bg-d-green text-white mb-7">
-                <div className="relative flex items-center  justify-center  gap-2 pt-7">
-                    <div className="bg-l-green h-[1px] w-[80px] flex-1"></div>
-                    <img src={local} alt="Local Icone"></img>
-                    <p className="text-[20px] font-bold ">Como chegar:</p>
-                    <div className="bg-l-green h-[1px] w-[80px] flex-1"></div>
-                </div>
-
-                <a href="https://maps.app.goo.gl/FcaVvarg3yYmWyJg9" target="_blank" rel="noopener noreferrer" className="text-[16px] p-4 flex justify-center">R. Padre Ladislau Kula, 395 <br /> - Santo Inácio, Curitiba - PR, 82010-210</a>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.3950488344713!2d-49.3212167!3d-25.425052899999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce17ef41e8dfb%3A0x3c55dcefc8395c6c!2sR.%20Padre%20Ladislau%20Kula%2C%20395%20-%20Santo%20In%C3%A1cio%2C%20Curitiba%20-%20PR%2C%2082010-210!5e0!3m2!1spt-BR!2sbr!4v1781110440179!5m2!1spt-BR!2sbr"
-                    className="w-full h-[158px] pb-8"
-                    style={{ border: 0 }}
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                />
             </div>
         </section>
     )

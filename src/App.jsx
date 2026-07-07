@@ -15,9 +15,9 @@ function App() {
       <Navbar />
       <main className='flex-1'>
         <Hero />
+        <HomeServicesSection />
         <TuiutiSection />
         <ServicesSection />
-        <HomeServicesSection />
         <AboutSection />
         <IgSection />
       </main>

@@ -9,55 +9,64 @@ import Reveal from "./Reveal"
 function HomeServicesSection() {
     return (
         <section id="home">
-            <div className="p-4 text-d-green">
+            <div className="p-4 text-d-green md:px-[140px]">
                 <div className="flex items-start">
                     <div className="bg-l-green h-[50px] w-[11px] mt-4"></div>
+                    {/* Titulo */}
                     <h2 className="text-[16px] p-4 pl-2 leading-6 mb-4 mt-3">
                         <span className="font-extrabold">Atendimento domiciliar</span>
                     </h2>
+                    {/* Titulo */}
                 </div>
-                <p className="text-[16px] mb-6"><span className="font-bold">Serviços realizados no conforto do lar</span>, reduzindo o estresse do animal e proporcionando maior comodidade ao tutor.</p>
 
-                <Reveal className="transition-all duration-700 delay-100">
-                    <Box
-                        variant="light"
-                        icon={<Consultation />}
-                        title="Consultas:"
-                        items={[
-                            "Avaliações clínicas",
-                            "Atestados"
-                        ]}
-                        titleClassName="mb-7"
-                    />
-                </Reveal>
+                {/* Texto */}
+                <p className="text-[16px] mb-6 md:text-[20px]"><span className="font-bold">Serviços realizados no conforto do lar</span>, reduzindo o estresse do animal e proporcionando maior comodidade ao tutor.</p>
+                {/* Texto */}
 
-                <Reveal className="transition-all duration-700 delay-100">
-                    <Box
-                        variant="light"
-                        icon={<Care />}
-                        title="Cuidados:"
-                        items={[
-                            "Administração de medicamentos",
-                            "Corte de unhas"
-                        ]}
-                        titleClassName="mb-7"
-                    />
-                </Reveal>
+                {/* cards */}
+                <div className="md:flex md:flex-row gap-20">
+                    <Reveal className="transition-all duration-700 delay-100">
+                        <Box
+                            variant="light"
+                            icon={<Consultation />}
+                            title="Consultas:"
+                            items={[
+                                "Avaliações clínicas",
+                                "Atestados"
+                            ]}
+                            titleClassName="mb-7"
+                        />
+                    </Reveal>
 
-                <Reveal className="transition-all duration-700 delay-100">
-                    <Box
-                        variant="light"
-                        icon={<Guidelines />}
-                        title="Orientações:"
-                        items={[
-                            "Manejo ambiental",
-                            "Nutricional"
-                        ]}
-                        titleClassName="mb-7"
-                    />
-                </Reveal>
+                    <Reveal className="transition-all duration-700 delay-100">
+                        <Box
+                            variant="light"
+                            icon={<Care />}
+                            title="Cuidados:"
+                            items={[
+                                "Administração de medicamentos",
+                                "Corte de unhas"
+                            ]}
+                            titleClassName="mb-7"
+                        />
+                    </Reveal>
 
-                <p className="text-[16px] mb-4 mt-7"><span className="font-bold">Entre em contato</span> para agendar o atendimento domiciliar!</p>
+                    <Reveal className="transition-all duration-700 delay-100">
+                        <Box
+                            variant="light"
+                            icon={<Guidelines />}
+                            title="Orientações:"
+                            items={[
+                                "Manejo ambiental",
+                                "Nutricional"
+                            ]}
+                            titleClassName="mb-7"
+                        />
+                    </Reveal>
+                </div>
+                {/* cards */}
+
+                <p className="md:text-[20px] text-[16px] mb-4 mt-7"><span className="font-bold">Entre em contato</span> para agendar o atendimento domiciliar!</p>
                 <div className="flex flex-col items-center">
                     <Link href="https://wa.me/5541996462347">
                         Agendar atendimento domiciliar

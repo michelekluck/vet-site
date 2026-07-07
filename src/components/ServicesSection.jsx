@@ -11,76 +11,83 @@ import Reveal from "./Reveal"
 function ServicesSection() {
     return (
         <section>
-            <div className="p-4">
+            <div className="p-4 md:p-0">
+
+                {/* Titulo */}
                 <div className="flex items-start">
-                    <div className="bg-l-green h-[50px] w-[11px] mt-4"></div>
-                    <h2 className="text-[16px] p-4 pl-2 leading-6 text-d-green mb-4"><span className="font-extrabold">Serviços realizados</span> <br /><span className="text-[15px]">na clínica da Universidade Tuiuti</span></h2>
+                    <h2 className="text-[16px] p-4 pl-2 leading-6 text-d-green mb-4"><span className="font-extrabold">Serviços realizados</span></h2>
                 </div>
+                {/* Titulo */}
 
-                <Reveal className="transition-all duration-700 delay-100">
-                    <Box
-                        variant="dark"
-                        icon={<Consultation />}
-                        title="Consultas e acompanhamento:"
-                        items={[
-                            "Consultas clínicas",
-                            "Atestados de saúde",
-                            "Orientação nutricional e ambiental"
-                        ]}
-                    />
-                </Reveal>
+                {/* cards */}
+                <div>
+                    <Reveal className="transition-all duration-700 delay-100">
+                        <Box
+                            variant="dark"
+                            icon={<Consultation />}
+                            title="Consultas e acompanhamento:"
+                            items={[
+                                "Consultas clínicas",
+                                "Atestados de saúde",
+                                "Orientação nutricional e ambiental"
+                            ]}
+                        />
+                    </Reveal>
 
-                <Reveal className="transition-all duration-700 delay-100">
-                    <Box
-                        variant="dark"
-                        icon={<Exam />}
-                        title="Exames:"
-                        items={[
-                            "Exames laboritoriais",
-                            "Exames de imagem"
-                        ]}
-                        titleClassName="mb-7"
-                    />
-                </Reveal>
+                    <Reveal className="transition-all duration-700 delay-100">
+                        <Box
+                            variant="dark"
+                            icon={<Exam />}
+                            title="Exames:"
+                            items={[
+                                "Exames laboritoriais",
+                                "Exames de imagem"
+                            ]}
+                            titleClassName="mb-7"
+                        />
+                    </Reveal>
 
-                <Reveal className="transition-all duration-700 delay-100">
-                    <Box
-                        variant="dark"
-                        icon={<Procedures />}
-                        title="Procedimentos ambulatórios:"
-                        items={[
-                            "Corte de unhas",
-                            "Desgaste dentário",
-                            "Desgaste de bico"
-                        ]}
-                    />
-                </Reveal>
+                    <Reveal className="transition-all duration-700 delay-100">
+                        <Box
+                            variant="dark"
+                            icon={<Procedures />}
+                            title="Procedimentos ambulatórios:"
+                            items={[
+                                "Corte de unhas",
+                                "Desgaste dentário",
+                                "Desgaste de bico"
+                            ]}
+                        />
+                    </Reveal>
 
-                <Reveal className="transition-all duration-700 delay-100">
-                    <Box
-                        variant="dark"
-                        icon={<Surgery />}
-                        title="Cirurgias:"
-                        items={[
-                            "Castrações",
-                            "Cirurgias ortotopédicas",
-                            "Cirurgias oncológicas",
-                            "Outro procedimentos cirurgicos"
-                        ]}
-                    />
-                </Reveal>
+                    <Reveal className="transition-all duration-700 delay-100">
+                        <Box
+                            variant="dark"
+                            icon={<Surgery />}
+                            title="Cirurgias:"
+                            items={[
+                                "Castrações",
+                                "Cirurgias ortotopédicas",
+                                "Cirurgias oncológicas",
+                                "Outro procedimentos cirurgicos"
+                            ]}
+                        />
+                    </Reveal>
 
-                <Reveal className="transition-all duration-700 delay-100">
-                    <Box
-                        variant="dark"
-                        icon={<FollowUp />}
-                        title="Internamento:"
-                        items={[
-                            "Acompanhamento hospitalar"
-                        ]}
-                        titleClassName="mb-8"
-                    />
-                </Reveal>
+                    <Reveal className="transition-all duration-700 delay-100">
+                        <Box
+                            variant="dark"
+                            icon={<FollowUp />}
+                            title="Internamento:"
+                            items={[
+                                "Acompanhamento hospitalar"
+                            ]}
+                            titleClassName="mb-8"
+                        />
+                    </Reveal>
+                </div>
+                {/* cards */}
+
             </div>
 
             <div className="mt-4 bg-d-green text-white mb-7">

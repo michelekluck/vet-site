@@ -17,14 +17,14 @@ function Box({ icon, title, items, variant = "dark", className = "", titleClassN
     const currentStyle = styles[variant]
 
     return (
-        <div className={`${currentStyle.bg} p-5 rounded-[20px] mb-2 h-[190px]`}>
+        <div className={`${currentStyle.bg} p-5 rounded-[20px] mb-2 h-[190px] md:w-[350px] ${className}`}>
             <div className={`flex items-center gap-2 ${currentStyle.title} ${titleClassName}`}>
                 <span className={currentStyle.iconClass}> {icon} </span>
-                <p className="text-[16px] font-bold ml-2"> {title} </p>
+                <p className="text-[16px] font-bold ml-2 md:text-[20px]"> {title} </p>
             </div>
-            <ul className={`${currentStyle.text} mt-2 text-[16px] list-disc pl-5 mt-4`}>
+            <ul className={`${currentStyle.text} mt-2 text-[16px] list-disc pl-5`}>
                 {items.map((item, index) => (
-                    <li key={index}>{item}</li>
+                    <li className="mt-2" key={index}>{item}</li>
                 ))}
             </ul>
         </div>

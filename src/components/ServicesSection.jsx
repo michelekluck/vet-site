@@ -20,7 +20,7 @@ function ServicesSection() {
                 {/* Titulo */}
 
                 {/* cards */}
-                <div className="grid grid-cols-1 md:grid-cols-3 md:gap-10">
+                <div className="grid grid-cols-1 lg:grid-cols-3 :gap-10">
                     <Reveal className="transition-all duration-700 delay-100">
                         <Box
                             variant="dark"

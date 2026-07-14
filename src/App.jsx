@@ -17,6 +17,7 @@ function App() {
         <Hero />
         <HomeServicesSection />
         <TuiutiSection />
+        <AboutSection />
         <IgSection />
       </main>
       <Footer />

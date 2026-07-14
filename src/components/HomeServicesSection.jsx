@@ -24,7 +24,7 @@ function HomeServicesSection() {
                 {/* Texto */}
 
                 {/* cards */}
-                <div className="md:flex md:flex-row gap-20">
+                <div className="lg:flex lg:flex-row gap-20">
                     <Reveal className="transition-all duration-700 delay-100">
                         <Box
                             variant="light"

@@ -36,7 +36,7 @@ function Navbar() {
                     />
 
                     {/* menu */}
-                    <div className="absolute left-0 top-full w-full z-50 flex flex-col items-center gap-2 p-4 bg-white rounded-b-3xl md:hidden leading-12">
+                    <div className="absolute left-0 top-full w-full z-50 flex flex-col items-center gap-2 p-4 bg-white rounded-b-3xl lg:hidden leading-12">
                         <a href="#tuiuti" onClick={() => setOpen(false)}>Atendimento na Universidade Tuiuti</a>
                         <a href="#home" onClick={() => setOpen(false)}>Atendimento à domicílio</a>
                         <a href="#about" onClick={() => setOpen(false)}>Sobre</a>

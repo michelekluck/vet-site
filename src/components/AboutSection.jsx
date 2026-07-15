@@ -4,12 +4,12 @@ import image from "../assets/about.png";
 function AboutSection() {
     return (
         <section id="about" className="bg-d-green mt-4">
-            <div className="text-white p-4 md:px-[140px] md:py-12">
-                <div className="md:flex md:items-center md:justify-between md:gap-16">
+            <div className="text-white p-4 md:px-[140px] lg:py-12">
+                <div className="lg:flex lg:items-center lg:justify-between lg:gap-16">
 
                     {/* Texto */}
-                    <div className="md:flex-1">
-                        <h2 className="font-bold mt-4 mb-4 md:mb-[200px]">
+                    <div className="lg:flex-1">
+                        <h2 className="font-bold mt-4 mb-4 lg:mb-[150px] md:mb-[130px]">
                             Quem sou eu?
                         </h2>
 
@@ -37,7 +37,7 @@ function AboutSection() {
                         <img
                             src={image}
                             alt="Imagem Samuel Kluck"
-                            className="mx-auto md:mx-0 md:w-[450px]"
+                            className="mx-auto lg:mx-0 lg:w-[450px]"
                         />
                     </div>
 

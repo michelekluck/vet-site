@@ -4,7 +4,7 @@ import image from "../assets/about.png";
 function AboutSection() {
     return (
         <section id="about" className="bg-d-green mt-4">
-            <div className="text-white p-4 md:px-[140px] lg:py-12">
+            <div className="text-white p-4  lg:py-12">
                 <div className="lg:flex lg:items-center lg:justify-between lg:gap-16">
 
                     {/* Texto */}

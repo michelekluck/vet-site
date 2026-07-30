@@ -18,9 +18,9 @@ function Hero() {
                     {/* Titulo principal */}
 
                     {/* Região */}
-                    <div className="md:w-[340px] md:mx-auto border border-l-green rounded-full text-[14px] font-bold m-4 relative flex items-center p-3 py-4 lg:py-6">
-                        <img src={local} alt="Icone Local" className="ml-2 lg:w-[26px] lg:ml-9"></img>
-                        <p className="absolute left-1/2 -translate-x-1/2 text-center text-[15px]  lg:text-[24px] lg:w-[326px]">Em curitiba e Região <br /> Metropolitana</p>
+                    <div className="w-[340px] h-[52px] border border-l-green rounded-full text-[14px] font-bold my-4 relative flex items-center p-3 py-8 lg:py-10 lg:w-[490px] lg:mt-4 block mx-auto">
+                        <img src={local} alt="Icone Local" className="ml-2 lg:w-[30px] lg:h-[30px]"></img>
+                        <p className="absolute left-1/2 -translate-x-1/2 text-center text-[16px] w-[200px] lg:text-[20px] lg:w-[360px]">Em curitiba e Região <br /> Metropolitana</p>
                     </div>
                     {/* Região */}
 
@@ -33,9 +33,9 @@ function Hero() {
                 </div>
 
                 {/* Imagem */}
-                <div className="relative z-10 -mx-4 md:-ml-20 md:mr-0 lg:p-0">
+                <div className="relative z-10 max-w-none -mx-4 md:-ml-20 md:mr-0">
                     <img src={iguana} alt="Iguana"
-                        className=" w-[320px] md:w-[670px] translate-y-7 -translate-x-[40px] md:translate-y-9">
+                        className="w-[320px] md:w-[670px] translate-y-7 md:translate-y-30 lg:translate-y-70 -translate-x-[40px]">
                     </img>
                 </div>
                 {/* Imagem */}

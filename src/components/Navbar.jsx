@@ -6,7 +6,7 @@ function Navbar() {
 
     return (
         <header className="fixed top-0 left-0 w-full bg-white z-[9999] shadow-md">
-            <nav className="flex items-center justify-between px-4">
+            <nav className="flex items-center px-4">
                 <a href="#">
                     <img src={logo} alt="Logo" className="w-[200px]"></img>
                 </a>

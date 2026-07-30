@@ -4,7 +4,7 @@ import Instagram from "../assets/instagram.svg?react";
 function Footer() {
     return (
         <footer>
-            <div className="bg-white text-black mt-4 p-6 md:px-[140px]">
+            <div className="bg-white text-black mt-4 p-6">
 
                 <div className="md:flex md:justify-between md:items-start">
 

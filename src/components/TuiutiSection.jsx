@@ -5,7 +5,7 @@ import local from "../assets/local.svg"
 
 function TuiutiSection() {
     return (
-        <section id="tuiuti" className="md:px-[140px]">
+        <section id="tuiuti">
             <div className="text-white p-4">
 
                 {/* Título */}

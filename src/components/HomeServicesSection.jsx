@@ -9,7 +9,7 @@ import Reveal from "./Reveal"
 function HomeServicesSection() {
     return (
         <section id="home">
-            <div className="p-4 text-d-green md:px-[140px]">
+            <div className="p-4 text-d-green ">
                 <div className="flex items-start">
                     <div className="bg-l-green h-[50px] w-[11px] mt-4"></div>
                     {/* Titulo */}

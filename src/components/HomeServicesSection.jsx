@@ -9,7 +9,7 @@ import Reveal from "./Reveal"
 function HomeServicesSection() {
     return (
         <section id="home">
-            <div className="p-4 text-d-green ">
+            <div className="2xl:px-30 p-4 text-d-green ">
                 <div className="flex items-start">
                     <div className="bg-l-green h-[50px] w-[11px] mt-4"></div>
                     {/* Titulo */}
@@ -24,10 +24,10 @@ function HomeServicesSection() {
                 {/* Texto */}
 
                 {/* cards */}
-                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:gap-4 md:justify-items-center lg:gap-1 ">
+                <div className="grid grid-cols-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:gap-4 md:justify-items-center lg:gap-1 ">
                     <Reveal className="transition-all duration-700 delay-100">
                         <Box
-                            variant="light"
+                            variant="dark"
                             icon={<Consultation />}
                             title="Consultas:"
                             items={[
@@ -40,7 +40,7 @@ function HomeServicesSection() {
 
                     <Reveal className="transition-all duration-700 delay-100">
                         <Box
-                            variant="light"
+                            variant="dark"
                             icon={<Care />}
                             title="Cuidados:"
                             items={[
@@ -53,7 +53,7 @@ function HomeServicesSection() {
 
                     <Reveal className="transition-all duration-700 delay-100">
                         <Box
-                            variant="light"
+                            variant="dark"
                             icon={<Guidelines />}
                             title="Orientações:"
                             items={[
@@ -66,12 +66,18 @@ function HomeServicesSection() {
                 </div>
                 {/* cards */}
 
-                <p className="md:text-[20px] text-[16px] mb-4 mt-7"><span className="font-bold">Entre em contato</span> para agendar o atendimento domiciliar!</p>
+                <div>
+                    <p className="md:text-[20px] text-[16px] mb-4 mt-7"><span className="font-bold">Entre em contato</span> para agendar o atendimento domiciliar:</p>
+                </div>
+
+                {/* Contato */}
                 <div className="flex flex-col items-center">
-                    <Link href="https://wa.me/5541996462347">
+                    <Link href="https://wa.me/5541996462347" className="mb-4">
                         Agendar atendimento domiciliar
                     </Link>
+                    <p className="text-[12px] md:text-[16px]">*Esse contato é apenas para agendar consulta domiciliar</p>
                 </div>
+                {/* Contato */}
 
             </div>
         </section>

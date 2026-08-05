@@ -4,43 +4,85 @@ import iguana from "../assets/iguana.png"
 
 function Hero() {
     return (
-        <section className="text-center mt-14 lg:mt-4">
+        <section className="text-center mt-10 lg:mt-4">
 
             {/* Titulo + imagem */}
-            <div className="bg-d-green text-white p-4 flex flex-col md:flex-row md:flex-row-reverse md:justify-between">
-                <div className="md:mr-[15vw]">
+            <div className="bg-d-green text-white p-4 pt-10 flex flex-col md:flex-row md:flex-row-reverse md:justify-between">
+
+                <div className="md:mr-[15vw] 2xl:mr-[20vw]" >
+
                     {/* Titulo principal */}
                     <div className="lg:pt-[5vw] lg:mb-10">
-                        <h1 className='font-bold text-[24px] lg:text-[40px] '>Atendimento de <br />
-                            <span className="bg-l-green text-d-green rounded-full pl-4 pr-1"> animais silvestres</span> e <br />
-                            <span className="bg-l-green text-d-green rounded-full pl-4 pr-1">pets não convencionais</span> à <br /> domicílio </h1>
+                        <h1 className='font-bold text-[24px] lg:text-[40px] '>
+                            Atendimento de <br />
+                            <span className="bg-l-green text-d-green rounded-full pl-4 pr-1">
+                                animais silvestres
+                            </span> e <br />
+                            <span className="bg-l-green text-d-green rounded-full pl-4 pr-1">
+                                pets não convencionais
+                            </span> à <br />
+                            domicílio
+                        </h1>
                     </div>
                     {/* Titulo principal */}
+
 
                     {/* Região */}
                     <div className="w-[340px] h-[52px] border border-l-green rounded-full text-[14px] font-bold my-4 relative flex items-center p-3 py-8 lg:py-10 lg:w-[490px] lg:mt-4 block mx-auto">
-                        <img src={local} alt="Icone Local" className="ml-2 lg:w-[30px] lg:h-[30px]"></img>
-                        <p className="absolute left-1/2 -translate-x-1/2 text-center text-[16px] w-[200px] lg:text-[20px] lg:w-[360px]">Em curitiba e Região <br /> Metropolitana</p>
+                        <img
+                            src={local}
+                            alt="Icone Local"
+                            className="ml-2 lg:w-[30px] lg:h-[30px]"
+                        />
+
+                        <p className="absolute left-1/2 -translate-x-1/2 text-center text-[16px] w-[200px] lg:text-[20px] lg:w-[360px]">
+                            Em curitiba e Região <br />
+                            Metropolitana
+                        </p>
                     </div>
                     {/* Região */}
 
+
                     {/* Contato */}
-                    <Link className="block mx-auto" href="https://wa.me/5541996462347">
+                    <Link
+                        className="block mx-auto"
+                        href="https://wa.me/5541996462347"
+                    >
                         Agendar consulta à<br />
                         domícilio
                     </Link>
                     {/* Contato */}
+
                 </div>
+
 
                 {/* Imagem */}
                 <div className="relative z-10 max-w-none -mx-4 md:-ml-20 md:mr-0">
-                    <img src={iguana} alt="Iguana"
-                        className="w-[320px] md:w-[670px] translate-y-7 md:translate-y-30 lg:translate-y-70 -translate-x-[40px]">
-                    </img>
+
+                    <img
+                        src={iguana}
+                        alt="Iguana"
+                        className="
+                        w-[320px] 
+                        md:w-[500px] 
+                        lg:w-[700px] 
+                        2xl:w-[800px] 
+                        translate-y-7 
+                        -translate-x-[60px]
+                        md:translate-y-28 
+                        md:-translate-x-[30px] 
+                        lg:translate-y-[200px] 
+                        xl:translate-y-[120px] 
+                        2xl:translate-y-[70px] 
+                        "
+                    />
+
                 </div>
                 {/* Imagem */}
+
             </div>
             {/* Titulo + imagem */}
+
         </section>
     )
 }

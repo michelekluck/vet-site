@@ -11,19 +11,20 @@ import Reveal from "./Reveal"
 function ServicesSection() {
     return (
         <section>
+
+            {/* Titulo */}
+            <div className="mb-10">
+                <h2 className="text-[16px] leading-6 text-white mt-10"><span className="font-extrabold">Serviços realizados</span></h2>
+                <p>Na clínica da Universidade Tuiuti:</p>
+            </div>
+            {/* Titulo */}
+
             <div className="md:p-0">
-
-                {/* Titulo */}
-                <div className="flex items-start">
-                    <h2 className="text-[16px] p-4 pl-2 leading-6 text-d-green mb-4"><span className="font-extrabold">Serviços realizados</span></h2>
-                </div>
-                {/* Titulo */}
-
                 {/* cards */}
-                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:gap-4 md:justify-items-center lg:gap-1">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 sm:gap-4 md:justify-items-center lg:gap-1">
                     <Reveal className="transition-all duration-700 delay-100">
                         <Box
-                            variant="dark"
+                            variant="light"
                             icon={<Consultation />}
                             title="Consultas e acompanhamento:"
                             items={[
@@ -36,7 +37,7 @@ function ServicesSection() {
 
                     <Reveal className="transition-all duration-700 delay-100">
                         <Box
-                            variant="dark"
+                            variant="light"
                             icon={<Exam />}
                             title="Exames:"
                             items={[
@@ -49,7 +50,7 @@ function ServicesSection() {
 
                     <Reveal className="transition-all duration-700 delay-100">
                         <Box
-                            variant="dark"
+                            variant="light"
                             icon={<Procedures />}
                             title="Procedimentos ambulatórios:"
                             items={[
@@ -62,7 +63,7 @@ function ServicesSection() {
 
                     <Reveal className="transition-all duration-700 delay-100">
                         <Box
-                            variant="dark"
+                            variant="light"
                             icon={<Surgery />}
                             title="Cirurgias:"
                             items={[
@@ -76,7 +77,7 @@ function ServicesSection() {
 
                     <Reveal className="transition-all duration-700 delay-100">
                         <Box
-                            variant="dark"
+                            variant="light"
                             icon={<FollowUp />}
                             title="Internamento:"
                             items={[

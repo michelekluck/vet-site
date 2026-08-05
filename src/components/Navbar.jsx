@@ -5,14 +5,14 @@ function Navbar() {
     const [open, setOpen] = useState(false)
 
     return (
-        <header className="fixed top-0 left-0 w-full bg-white z-[9999] shadow-md">
-            <nav className="flex items-center px-4">
+        <header className="fixed top-0 left-0 w-full bg-white z-[9999] shadow-md 2xl:px-30">
+            <nav className="flex items-center px-4 justify-between">
                 <a href="#">
                     <img src={logo} alt="Logo" className="w-[200px]"></img>
                 </a>
 
                 {/* Desktop */}
-                <div className="hidden lg:flex gap-10">
+                <div className="hidden 2xl:flex gap-10">
                     <a href="#tuiuti">Atendimento na Universidade Tuiuti</a>
                     <a href="#home">Atendimento à domicílio</a>
                     <a href="#about">Sobre</a>
@@ -20,7 +20,7 @@ function Navbar() {
 
                 {/* Mobile */}
                 <button
-                    className="cursor-pointer lg:hidden text-3xl"
+                    className="cursor-pointer 2xl:hidden text-3xl"
                     onClick={() => setOpen(!open)}
                 >
                     ☰

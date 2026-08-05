@@ -3,7 +3,7 @@ import instagram from "../assets/instagram.svg"
 function IgSection() {
     return (
         <section>
-            <div className="p-4 text-center">
+            <div className="p-4 text-center 2xl:px-30">
                 <h2 className="text-d-green">Quer saber mais sobre mim e meu trabalho?</h2>
                 <p>Me siga no instagram!</p>
             </div>

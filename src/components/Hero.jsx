@@ -69,7 +69,7 @@ function Hero() {
                         2xl:w-[800px] 
                         translate-y-7 
                         -translate-x-[60px]
-                        md:translate-y-28 
+                        md:translate-y-11
                         md:-translate-x-[30px] 
                         lg:translate-y-[200px] 
                         xl:translate-y-[120px] 

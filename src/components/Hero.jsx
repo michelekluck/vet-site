@@ -7,12 +7,12 @@ function Hero() {
         <section className="text-center mt-10 lg:mt-4">
 
             {/* Titulo + imagem */}
-            <div className="bg-d-green text-white p-4 pt-10 flex flex-col md:flex-row md:flex-row-reverse md:justify-between">
+            <div className="bg-d-green text-white p-4  flex flex-col md:flex-row md:flex-row-reverse md:justify-between">
 
                 <div className="md:mr-[15vw] 2xl:mr-[20vw]" >
 
                     {/* Titulo principal */}
-                    <div className="lg:pt-[5vw] lg:mb-10">
+                    <div className="lg:pt-[3vw] lg:mb-10">
                         <h1 className='font-bold text-[24px] lg:text-[40px] '>
                             Atendimento de <br />
                             <span className="bg-l-green text-d-green rounded-full pl-4 pr-1">

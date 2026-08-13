@@ -6,7 +6,7 @@ function Box({ icon, title, items, variant = "dark", className = "", titleClassN
             bg: "bg-d-green",
             text: "text-white",
             height: "h-[190px] md:h-[250px]",
-            width: "md:w-[300px] xl:w-[400px] 2xl:w-[500px]"
+            width: "md:w-[300px] xl:w-[400px] 2xl:w-[400px]"
         },
         light: {
             icon: "text-d-green",
@@ -14,7 +14,7 @@ function Box({ icon, title, items, variant = "dark", className = "", titleClassN
             bg: "bg-el-green",
             text: "text-black",
             height: "h-[250px] md:h-[350px] 2xl:h-[300px]",
-            width: "md:w-[350px] xl:w-[400px] 2xl:w-[450px]"
+            width: "md:w-[350px] xl:w-[400px] 2xl:w-[400px]"
         },
     };
 

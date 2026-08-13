@@ -46,7 +46,7 @@ function AboutSection() {
                     <img
                         src={image}
                         alt="Imagem Samuel Kluck"
-                        className="mx-auto w-[300px] lg:w-[350px] rounded-3xl mb-10"
+                        className="mx-auto w-[300px] lg:w-[350px] rounded-3xl mb-10 mt-8"
                     />
                 </div>
 

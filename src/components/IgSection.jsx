@@ -1,19 +1,15 @@
 import instagram from "../assets/instagram.svg"
+import Carousel from "./Carousel"
 
 function IgSection() {
     return (
-        <section>
-            <div className="p-4 text-center 2xl:px-30">
-                <h2 className="text-d-green">Quer saber mais sobre mim e meu trabalho?</h2>
-                <p>Me siga no instagram!</p>
+        <section className="mb-10 bg-l-[[green">
+            <div className="p-4 text-center 2xl:px-30 mt-10 mb-5">
+                <h2 className="text-d-green">Veja um pouco do  meu dia a dia 🐾 </h2>
+                <p className="text-[16px] md:text-[20px] pt-4">Para acompanhar meu trabalho, me siga no instagram: @veterinario_samuel</p>
             </div>
-            {/* <div className="bg-l-green text-center items-center">
-                <p>**Instagram imagem**</p>
-                <div className="relative flex">
-                    <img src={instagram} alt="Icone Instagram" className="mr-2"></img>
-                    <p className="font-bold text-[14px]">@veterinario_samuel_</p>
-                </div>
-            </div> */}
+
+            <Carousel />
 
         </section>
     )

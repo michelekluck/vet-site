@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "imagem": "/images/samuel-bugiu.jpeg",
+        "alt": "Atendimento veterinário"
+    },
+    {
+        "id": 2,
+        "imagem": "/images/samuel-coelho.jpeg",
+        "alt": "Animal sendo atendido"
+    },
+    {
+        "id": 3,
+        "imagem": "/images/samuel-coruja-peluda.jpeg",
+        "alt": "Atendimento de animais"
+    },
+    {
+        "id": 4,
+        "imagem": "/images/samuel-coruja.jpeg",
+        "alt": "Atendimento de animais"
+    },
+    {
+        "id": 5,
+        "imagem": "/images/samuel-esquilo.jpeg",
+        "alt": "Atendimento de animais"
+    },
+    {
+        "id": 5,
+        "imagem": "/images/samuel-pato-do-mato.jpeg",
+        "alt": "Atendimento de animais"
+    },
+    {
+        "id": 6,
+        "imagem": "/images/samuel-porquinho-da-india.jpeg",
+        "alt": "Atendimento de animais"
+    },
+    {
+        "id": 7,
+        "imagem": "/images/samuel-quiriquiri.jpeg",
+        "alt": "Atendimento de animais"
+    },
+    {
+        "id": 8,
+        "imagem": "/images/samuel-siriema.jpeg",
+        "alt": "Atendimento de animais"
+    },
+    {
+        "id": 9,
+        "imagem": "/images/samuel-tartaruga.jpeg",
+        "alt": "Atendimento de animais"
+    },
+    {
+        "id": 10,
+        "imagem": "/images/samuel-bugiu-2.jpeg",
+        "alt": "Atendimento de animais"
+    },
+    {
+        "id": 11,
+        "imagem": "/images/samuel-urutau.jpeg",
+        "alt": "Atendimento de animais"
+    }
+]

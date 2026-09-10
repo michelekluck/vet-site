@@ -37,7 +37,7 @@ function Navbar() {
     }, [])
 
     return (
-        <header className="fixed top-0 left-0 w-full bg-white z-[9999] shadow-md 2xl:px-30">
+        <header className="normal-text fixed top-0 left-0 w-full bg-white z-[9999] shadow-md 2xl:px-30">
             <nav className="relative flex items-center px-4 justify-between">
                 <a href="#" onClick={() => setActiveSection(null)}>
                     <img src={logo} alt="Logo" className="w-[200px]" />
@@ -101,13 +101,6 @@ function Navbar() {
 
                     {/* menu */}
                     <div className="absolute left-0 top-full w-full z-50 flex flex-col items-center gap-2 p-4 bg-white rounded-b-3xl leading-12">
-                        <a
-                            href="#tuiuti"
-                            className="hover:font-bold"
-                            onClick={() => setOpen(false)}
-                        >
-                            Atendimento na Universidade Tuiuti
-                        </a>
 
                         <a
                             href="#home"
@@ -116,6 +109,15 @@ function Navbar() {
                         >
                             Atendimento à domicílio
                         </a>
+
+                        <a
+                            href="#tuiuti"
+                            className="hover:font-bold"
+                            onClick={() => setOpen(false)}
+                        >
+                            Atendimento na Universidade Tuiuti
+                        </a>
+
 
                         <a
                             href="#about"

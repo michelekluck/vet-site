@@ -11,16 +11,16 @@ function HomeServicesSection() {
         <section id="home">
             <div className="2xl:px-30 p-4 text-d-green xl:mt-10">
                 <div className="flex items-start">
-                    <div className="bg-l-green h-[50px] w-[11px] mt-2"></div>
+                    <div className="bg-l-green h-[50px] w-[11px] mt-1 md:mt-2"></div>
                     {/* Titulo */}
-                    <h2 className="text-[16px] p-4 pl-2 leading-6 mb-4 ">
+                    <h2 className="p-4 pl-2 leading-6 mb-4 ">
                         <span className="font-extrabold">Atendimento domiciliar</span>
                     </h2>
                     {/* Titulo */}
                 </div>
 
                 {/* Texto */}
-                <p className="text-[16px] mb-6 md:text-[20px]"><span className="font-bold">Serviços realizados no conforto do lar</span>, reduzindo o estresse do animal e proporcionando maior comodidade ao tutor.</p>
+                <p className="normal-text mb-6"><span className="font-bold">Serviços realizados no conforto do lar</span>, reduzindo o estresse do animal e proporcionando maior comodidade ao tutor.</p>
                 {/* Texto */}
 
                 {/* cards */}
@@ -75,7 +75,7 @@ function HomeServicesSection() {
                 {/* cards */}
 
                 <div>
-                    <p className="md:text-[20px] text-[16px] mb-4 mt-7"><span className="font-bold">Entre em contato</span> para agendar o atendimento domiciliar:</p>
+                    <p className="normal-text mb-4 mt-7"><span className="font-bold">Entre em contato</span> para agendar o atendimento domiciliar:</p>
                 </div>
 
                 {/* Contato */}
@@ -83,7 +83,7 @@ function HomeServicesSection() {
                     <Link href="https://wa.me/5541996462347" className="mb-4">
                         Agendar atendimento domiciliar
                     </Link>
-                    <p className="text-[12px] md:text-[16px]">*Esse contato é apenas para agendar consulta domiciliar</p>
+                    <p className="info-text">*Esse contato é apenas para agendar consulta domiciliar</p>
                 </div>
                 {/* Contato */}
 

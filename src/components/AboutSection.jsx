@@ -21,7 +21,7 @@ function AboutSection() {
                     </div>
 
                     {/* Texto */}
-                    <div className="text-[16px] md:text-[20px] leading-7 text-justify">
+                    <div className="normal-text leading-7 text-justify mb-4">
                         <p>
                             Sou Samuel Kluck, Médico Veterinário, com atuação
                             voltada ao atendimento domiciliar de animais

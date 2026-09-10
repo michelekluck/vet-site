@@ -21,8 +21,32 @@ h2 {
   font-weight: bold;
 }
 
+.normal-text {
+  font-size: 16px;
+}
+
+.info-text {
+  font-size: 12px;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
 @media (min-width: 768px) {
   h2 {
     font-size: 28px;
+  }
+
+  .normal-text {
+    font-size: 20px;
+  }
+
+  .info-text {
+    font-size: 16px;
+  }
+
+  .footer-text {
+    font-size: 16px;
   }
 }

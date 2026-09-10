@@ -14,7 +14,7 @@ function ServicesSection() {
 
             {/* Titulo */}
             <div className="mb-10">
-                <h2 className="text-[16px] leading-6 text-white mt-10"><span className="font-extrabold">Serviços realizados</span></h2>
+                <h2 className="text-[16px] leading-6 text-white mt-10">Serviços realizados</h2>
                 <p>Na clínica da Universidade Tuiuti:</p>
             </div>
             {/* Titulo */}
@@ -90,7 +90,7 @@ function ServicesSection() {
                 {/* cards */}
 
             </div>
-        </section>
+        </section >
     )
 }
 

@@ -7,7 +7,7 @@ function Hero() {
         <section className="text-center mt-10 lg:mt-4">
 
             {/* Titulo + imagem */}
-            <div className="bg-d-green text-white p-4  flex flex-col md:flex-row md:flex-row-reverse md:justify-between">
+            <div className="bg-d-green text-white p-4 pt-10 md:pt-5 flex flex-col md:flex-row md:flex-row-reverse md:justify-between">
 
                 <div className="md:mr-[15vw] 2xl:mr-[20vw]" >
 
@@ -29,14 +29,8 @@ function Hero() {
 
                     {/* Região */}
                     <div className="w-[340px] h-[52px] border border-l-green rounded-full text-[14px] font-bold my-4 relative flex items-center p-3 py-8 lg:py-10 lg:w-[490px] lg:mt-4 block mx-auto">
-                        <img
-                            src={local}
-                            alt="Icone Local"
-                            className="ml-2 lg:w-[30px] lg:h-[30px]"
-                        />
-
                         <p className="absolute left-1/2 -translate-x-1/2 text-center text-[16px] w-[200px] lg:text-[20px] lg:w-[360px]">
-                            Em curitiba e Região <br />
+                            Em Curitiba e Região <br />
                             Metropolitana
                         </p>
                     </div>
@@ -63,7 +57,7 @@ function Hero() {
                         src={iguana}
                         alt="Iguana"
                         className="
-                        w-[320px] 
+                        w-[400px] 
                         md:w-[500px] 
                         lg:w-[700px] 
                         2xl:w-[800px] 

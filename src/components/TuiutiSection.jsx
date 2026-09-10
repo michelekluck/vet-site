@@ -12,7 +12,7 @@ function TuiutiSection() {
                 <div className="flex items-stretch pb-4 ">
                     <div className="w-[11px] bg-l-green"></div>
 
-                    <h2 className="pl-2  md:leading-8">
+                    <h2 className="pl-2 md:leading-8">
                         <span className="font-extrabold">Atendimento</span> na <br />
                         Universidade Tuiuti do Paraná
                     </h2>
@@ -20,15 +20,15 @@ function TuiutiSection() {
                 {/* Título */}
 
                 {/* Texto */}
-                <p className="text-[16px] leading-7 md:text-[20px] mt-4">Também realizo <span className="font-bold">atendimentos na Universidade Tuiuti do Paraná</span> como aprimorando da área de Clínica e Cirurgia de Pets Não Convencionais e Animais Silvestres.</p>
+                <p className="normal-text leading-7  mt-4">Também realizo <span className="font-bold">atendimentos na Universidade Tuiuti do Paraná</span> como aprimorando da área de Clínica e Cirurgia de Pets Não Convencionais e Animais Silvestres.</p>
                 {/* Texto */}
 
                 <ServicesSection />
 
                 {/* Aviso */}
-                <div className="bg-d-green p-2 md:p-4 border-l-green border-2 rounded-xl flex items-center gap-3 mb-10 mt-10 md:w-[px]">
+                <div className="normal-text bg-d-green p-2 md:p-4 border-l-green border-2 rounded-xl flex items-center gap-3 mb-10 mt-10">
                     <Calendar className="h-[30px] w-[40px] shrink-0" />
-                    <p className="text-[16px] md:text-[20px] text-white">
+                    <p className="text-white">
                         As consultas são realizadas de <br className="md:hidden" />
                         <span className="bg-l-green ml-1 text-d-green font-bold px-2">segunda a sexta-feira</span>,
                         mediante
@@ -38,16 +38,16 @@ function TuiutiSection() {
                 {/* Aviso */}
 
                 <div>
-                    <p className="mb-4"><span className="font-bold">Entre em contato</span> no link abaixo para agendar atendimento na Clínica da Universidade Tuiuti:</p>
+                    <p className="normal-text mb-4"><span className="font-bold">Entre em contato</span> no link abaixo para agendar atendimento na Clínica da Universidade Tuiuti:</p>
                 </div>
 
                 {/* Contato */}
-                <div className="flex flex-col items-center text-center">
+                <div className="flex flex-col items-center text-center mb-5">
                     <Link variant="phone" className="mb-4" href="https://wa.me/55333117955">
                         Agendar consulta <br />
                         (41) 3331-17955
                     </Link>
-                    <p className="text-[12px] mb-10 md:text-[16px]">*Esse contato é apenas para agendar consultas na Univerdade Tuitui do Paraná</p>
+                    <p className="info-text">*Esse contato é apenas para agendar consultas na Univerdade Tuitui do Paraná</p>
                 </div>
                 {/* Contato */}
 
@@ -61,9 +61,9 @@ function TuiutiSection() {
                     <div className="flex items-center gap-3 pt-7">
                         <div className="h-[1px] flex-1 bg-d-green 2xl:-mr-[120px] 2xl:mr-0"></div>
 
-                        <p className="text-[20px] font-bold whitespace-nowrap text-d-green">
+                        <h2 className="font-bold whitespace-nowrap text-d-green">
                             Como chegar:
-                        </p>
+                        </h2>
 
                         <div className="h-[1px] flex-1 bg-d-green 2xl:-mr-[120px] 2xl:mr-0"></div>
                     </div>
@@ -74,7 +74,7 @@ function TuiutiSection() {
                         href="https://maps.app.goo.gl/FcaVvarg3yYmWyJg9"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="block text-[16px] md:text-[20px] py-4 text-center text-d-green p-4"
+                        className="block normal-text py-4 text-center text-d-green p-4"
                     >
                         R. Padre Ladislau Kula, 395
                         Santo Inácio, Curitiba - PR, 82010-210

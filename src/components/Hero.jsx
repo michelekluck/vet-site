@@ -1,5 +1,4 @@
 import Link from "./Link"
-import local from "../assets/local.svg"
 import iguana from "../assets/iguana.png"
 
 function Hero() {
@@ -43,7 +42,7 @@ function Hero() {
                         href="https://wa.me/5541996462347"
                     >
                         Agendar consulta à<br />
-                        domícilio
+                        domicílio
                     </Link>
                     {/* Contato */}
 

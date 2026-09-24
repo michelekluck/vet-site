@@ -21,6 +21,7 @@ function Footer() {
 
                             <a
                                 className="inline-block mb-2"
+                                target="_blank"
                                 href="https://wa.me/5541333117955"
                             >
                                 (41) 3331-17955
@@ -30,7 +31,8 @@ function Footer() {
                                 Agendamento à domicílio
                             </p>
 
-                            <a href="https://wa.me/5541996462347">
+                            <a href="https://wa.me/5541996462347"
+                                target="_blank">
                                 (41) 99646-2347
                             </a>
                         </div>

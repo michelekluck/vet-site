@@ -40,7 +40,7 @@ function Footer() {
 
                     {/* Redes sociais */}
                     <div className="mt-8 md:mt-0 md:text-right">
-                        <p className="font-bold text-[18px] mb-4">
+                        <p className="font-bold mb-4">
                             Me siga nas redes sociais:
                         </p>
 

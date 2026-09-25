@@ -11,8 +11,8 @@ function Hero() {
                 <div className="md:mr-[15vw] 2xl:mr-[20vw]" >
 
                     {/* Titulo principal */}
-                    <div className="lg:pt-[3vw] lg:mb-10">
-                        <h1 className='font-bold text-[24px] lg:text-[40px] '>
+                    <div className="lg:pt-[5vw] lg:mb-10">
+                        <h1 className='font-bold text-[24px] lg:text-[38px] '>
                             Atendimento de <br />
                             <span className="bg-l-green text-d-green rounded-full pl-4 pr-1">
                                 animais silvestres
@@ -65,7 +65,7 @@ function Hero() {
                         md:translate-y-11
                         md:-translate-x-[30px] 
                         lg:translate-y-[200px] 
-                        xl:translate-y-[120px] 
+                        xl:translate-y-[80px] 
                         2xl:translate-y-[70px] 
                         "
                     />

@@ -44,7 +44,7 @@ function Navbar() {
                 </a>
 
                 {/* Desktop */}
-                <div className="hidden 2xl:flex gap-10">
+                <div className="hidden lg:flex gap-10">
 
                     <a
                         href="#home"
@@ -84,7 +84,7 @@ function Navbar() {
 
                 {/* Mobile */}
                 <button
-                    className="cursor-pointer 2xl:hidden text-3xl"
+                    className="cursor-pointer lg:hidden text-3xl"
                     onClick={() => setOpen(!open)}
                 >
                     ☰

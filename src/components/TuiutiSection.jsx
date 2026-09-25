@@ -47,7 +47,7 @@ function TuiutiSection() {
                         Agendar consulta <br />
                         (41) 3331-17955
                     </Link>
-                    <p className="info-text">*Esse contato é apenas para agendar consultas na Univerdade Tuitui do Paraná</p>
+                    <p className="info-text">*Esse contato é apenas para agendar consultas na Universidade Tuiuti do Paraná</p>
                 </div>
                 {/* Contato */}
 

@@ -39,7 +39,8 @@ function Hero() {
                     {/* Contato */}
                     <Link
                         className="block mx-auto"
-                        href="https://wa.me/5541996462347"
+                        href="https://wa.me/5541996462347?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20consulta%20domiciliar%20para%20o%20meu%20pet."
+                        target="_blank"
                     >
                         Agendar consulta à<br />
                         domicílio

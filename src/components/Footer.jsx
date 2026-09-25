@@ -22,16 +22,16 @@ function Footer() {
                             <a
                                 className="inline-block mb-2"
                                 target="_blank"
-                                href="https://wa.me/5541333117955"
+                                href="https://wa.me/4133317955?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20consulta%20para%20o%20meu%20pet."
                             >
-                                (41) 3331-17955
+                                (41) 3331-7955
                             </a>
 
                             <p className="font-bold">
                                 Agendamento à domicílio
                             </p>
 
-                            <a href="https://wa.me/5541996462347"
+                            <a href="https://wa.me/5541996462347?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20consulta%20domiciliar%20para%20o%20meu%20pet."
                                 target="_blank">
                                 (41) 99646-2347
                             </a>

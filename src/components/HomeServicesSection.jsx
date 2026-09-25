@@ -80,7 +80,7 @@ function HomeServicesSection() {
 
                 {/* Contato */}
                 <div className="flex flex-col items-center">
-                    <Link href="https://wa.me/5541996462347" className="mb-4">
+                    <Link href="https://wa.me/5541996462347?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20consulta%20domiciliar%20para%20o%20meu%20pet." className="mb-4" target="_blank">
                         Agendar atendimento domiciliar
                     </Link>
                     <p className="info-text">*Esse contato é apenas para agendar consulta domiciliar</p>

@@ -43,9 +43,9 @@ function TuiutiSection() {
 
                 {/* Contato */}
                 <div className="flex flex-col items-center text-center mb-5">
-                    <Link variant="phone" className="mb-4" href="https://wa.me/55333117955">
+                    <Link variant="phone" className="mb-4" href="https://wa.me/4133317955?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20consulta%20para%20o%20meu%20pet.">
                         Agendar consulta <br />
-                        (41) 3331-17955
+                        (41) 3331-7955
                     </Link>
                     <p className="info-text">*Esse contato é apenas para agendar consultas na Universidade Tuiuti do Paraná</p>
                 </div>

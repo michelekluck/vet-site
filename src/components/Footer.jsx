@@ -68,7 +68,7 @@ function Footer() {
 
                     <div className="text-right">
                         <p>Samuel Kluck</p>
-                        <p>CRMV: 0000</p>
+                        <p>CRMV PR 26643</p>
                     </div>
                 </div>
                 {/* sub-footer */}
